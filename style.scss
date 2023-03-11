@@ -296,8 +296,8 @@ button {
 100% {
   background: blue;
 }
-
-  @keyframes animatepink {
+}
+@keyframes animatepink {
 0% {
   background: pink;
 }
@@ -333,7 +333,7 @@ button {
 }
 
 }
-}
+
 @keyframes animategreen {
 0% {
   background: lightgreen;
