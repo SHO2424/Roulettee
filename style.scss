@@ -261,48 +261,78 @@ button {
   padding: 5px;
 }
 
-@keyframes animate {
-0% {
-  opacity: 0.3;
 
+@keyframes animateblue {
+0% {
+  background: blue;
 }
 10% {
-  opacity:1.5 
+  background: #5656ff;
 }
 20% {
-  opacity:0.3;
-
+  background: blue;
 }
 30% {
-  opacity:1.5;
-
+  background:#5656ff ;
 }
 40% {
-  opacity:0.3;
-
+  background: blue;
 }
 50% {
-  opacity:1.5;
-
+  background: #5656ff;
 }
 60% {
-  opacity:0.3;
-  
+  background: blue;
 }
 70% {
-  opacity:1.5;
+  background: #5656ff;
 }
 80% {
-  opacity:0.3;
+  background: blue;
 }
 90% {
-  opacity:1.5;
+  background:#5656ff;
 }
 100% {
-  opacity:0.3;
- 
+  background: blue;
 }
 
+  @keyframes animatepink {
+0% {
+  background: pink;
+}
+10% {
+  background: #dd909e;
+}
+20% {
+  background: pink;
+}
+30% {
+  background:#dd909e;
+}
+40% {
+  background: pink;
+}
+50% {
+  background: #dd909e;
+}
+60% {
+  background: pink;
+}
+70% {
+  background: #dd909e;
+}
+80% {
+  background: pink;
+}
+90% {
+  background:#dd909e;
+}
+100% {
+  background: pink;
+}
+
+}
 }
 @keyframes animategreen {
 0% {
@@ -337,6 +367,42 @@ button {
 }
 100% {
   background: lightgreen;
+}
+
+}
+@keyframes animatered {
+0% {
+  background: red;
+}
+10% {
+  background:#c74444;
+}
+20% {
+  background: red;
+}
+30% {
+  background:#c74444;
+}
+40% {
+  background:red;
+}
+50% {
+  background:#c74444;
+}
+60% {
+  background: red;
+}
+70% {
+  background:#c74444;
+}
+80% {
+  background: red;
+}
+90% {
+  background:#c74444;
+}
+100% {
+  background:red;
 }
 
 }
